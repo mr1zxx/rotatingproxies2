@@ -18,7 +18,7 @@ class TesteAnunciosECookiesNVCOIN:
         self.janela.title("Teste de Anúncios e Cookies")
         self.threads_em_execucao = 0
 
-        # fila de proxies (interface daqui pra baixo) . lembrar de limitar as threads 
+        # fila de proxies (interface começa do __init__self pra baixo) . lembrar de limitar as threads 
         self.frame_proxies = tk.Frame(self.janela)
         self.frame_proxies.pack(side=tk.LEFT, padx=10, pady=10)
 
